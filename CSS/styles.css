@@ -4,6 +4,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Courier Prime';
+  color: #40514E;
 }
 
 h1 {
@@ -23,14 +24,52 @@ h3 {
   color: #11999E;
 }
 
+p {
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
 a {
   color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40514E;
+  text-decoration: none;
 }
 
 span {
   text-decoration: underline;
 }
 
+hr {
+  clear: right;
+  width: 10%;
+  border-bottom-style: dotted;
+  border-width: 0 0 10px 0;
+  border-bottom-color: #EAF6F6;
+  margin: 5% auto;
+}
+
+button {
+  color: #EAF6F6;
+  background-color: #66BFBF;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  margin: 5% auto 10%;
+  font-family: 'Mali';
+  font-size: 20px;
+  font-weight: 100;
+}
+
+button:hover {
+  color: #66BFBF;
+  background-color: #EAF6F6;
+  border-radius: 10px;
+  text-decoration: none;
+}
 
                           /***  CLASSES  ***/
 
@@ -38,6 +77,7 @@ span {
 .round-img {
   border-radius: 50%;
   width: 200px;
+  margin-top: 50px;
 }
 
 .top-container {
@@ -46,12 +86,16 @@ span {
   position: relative;
 }
 
-.middle-container {
-  background-color: #effffb;
+.bottom-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #66BFBF;
 }
 
-.bottom-container {
-  background-color: #effffb;
+.copyrights {
+  color: #effffb;
+  font-size: 0.8rem;
+  margin: 30px 0;
 }
 
 .job {
@@ -61,11 +105,53 @@ span {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 30px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.analytical-img {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dancing-img {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.content-text-intro {
+  width: 35%;
+  margin: auto;
+}
+
+.footer-link {
+  margin: auto 2%;
+  color: #effffb;
+  font-size: 1.5rem;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
+}
+
+.imported-img {
+  font-size: 0.75rem;
+  margin: 0;
 }
